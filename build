@@ -13,13 +13,13 @@ set -ex
 export REGISTRY=${REGISTRY:-icr.io/codeengine}
 
 # Clone the repository
-git clone https://github.com/MohanadAymanAfiffy/CaseStudies-Rag.git
+git clone https://github.com/MohanadAAST/chatbot-aast.git
 
 # Enter the repository directory
-cd CaseStudies-Rag
+cd chatbot-aast
 
 # Build the image
-docker build ${NOCACHE} -t ${REGISTRY}/CaseStudies-Rag . --platform linux/amd64
+docker build ${NOCACHE} -t ${REGISTRY}/chatbot-aast . --platform linux/amd64
 
 # And push it
-docker push ${REGISTRY}/CaseStudies-Rag
+docker push ${REGISTRY}/chatbot-aast
