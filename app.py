@@ -16,7 +16,7 @@ app = FastAPI()
 
 # Global variables
 emails_dict = {}
-assistant_id = "asst_KVOX4iuqgAuCyHBjb3iYn0Wj"
+assistant_id = "asst_2PEhEEb9zbFOEHOtEKw7qc6G"
 
 # Initialize a cache
 cache_size = 30
